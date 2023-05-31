@@ -3,7 +3,7 @@ import { AppModule } from './app.module';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { TransformInterceptor } from './transform.interceptor';
 
-// console.log(process.env.MY_VARIABLE);
+  // console.log(process.env.MY_VARIABLE);
 
 async function bootstrap() {
   const logger = new Logger();
